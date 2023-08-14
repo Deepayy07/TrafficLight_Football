@@ -1,0 +1,35 @@
+/* .adjuster{
+    position: fixed;
+    top: 45%;
+} */
+img {
+  border-radius: 50%;
+  height: 150px;
+  padding-bottom: 0px;
+  margin-top: 70px;
+  transition: 0.9s;
+}
+
+.ballMovement {
+  transition: 0.9s;
+}
+
+.Ground {
+  border: 5px solid #60d467;
+}
+
+.roll {
+  transform: translate(500px, 0px) rotate(360deg);
+}
+
+.Buttons {
+  width: 80px;
+  margin: 5px;
+}
+
+.ButtonsInside {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  max-width: 400px;
+}
